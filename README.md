@@ -1,31 +1,48 @@
-<img src="https://user-images.githubusercontent.com/3495307/46663063-ca6df600-cbc5-11e8-8a77-d26ab7857f13.png" alt="react boilerplate typescript banner" align="center" />
+<h1>Aws exam Site</h1>
 
-<br />
+Hey this is just a quick site which aims to provide the following:
 
-<div align="center"><strong>Start your next react project in seconds</strong></div>
-<div align="center">A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices</div>
+<ul>
+    <li>Display multiple AWS questions from Jon Boso's tutorial dojo exams</li>
+    <li>Responsive Application Desktop / Mobile</li>
+    <li>Work Offline</li>
+    <li>Display total scores</li>
+    <li>Display correct / wrong answers / explanations</li>
+</ul>
 
-<br />
+
+
+To get started you will need to purchase the (excellent) exams from https://tutorialsdojo.com/
+
+From there you will need to extract the questions data from Udemy which you can do by following the next steps.
+
+<ul>
+    <li>Start one of the 5 exams</li>
+    <li>Immediately finish the exam</li>
+    <li>Click on review questions</li>
+    <li>Open the network tab in 'inspect element' and click on 'xhr'</li>
+    <li>Find the API request with the questions in (See Image One). You can also try filtering on '/assessments/' to help narrow the list</li>
+    <li>Right click the request and copy the response (See Image Two)</li>
+    <li>Use an editor to select only the results array</li>
+    <li>Paste the results into the 'Import' area at the bottom of the app (Press options to open it)</li>
+    <li>Reload the page!</li>
+</ul>
+
+<h3>Image One</h3>
+<img src="https://i.imgur.com/2ea0t5h.png" align="center" />
+
+<h3>Image Two</h3>
+<img src="https://i.imgur.com/z4OI2Jd.png" align="center" />
+
+<h3>Image Three</h3>
+<img src="https://i.imgur.com/bCXPcgo.png" align="center" />
+
+<hr />
+
+<h3>The following is information from the original boilerplate to assist further development.</h3>
 
 <div align="center">
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate.svg" alt="Dependency Status" />
-  </a>
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate/dev-status.svg" alt="devDependency Status" />
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/react-boilerplate/react-boilerplate">
-    <img src="https://travis-ci.org/react-boilerplate/react-boilerplate.svg" alt="Build Status" />
-  </a>
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/react-boilerplate/react-boilerplate">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate/badge.svg" alt="Test Coverage" />
-  </a>
-  <a href="https://spectrum.chat/react-boilerplate">
-  <img alt="Chat with us on Spectrum" src="https://withspectrum.github.io/badge/badge.svg" />
+  
 </a>
 
 </div>
