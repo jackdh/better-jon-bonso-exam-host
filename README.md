@@ -37,6 +37,20 @@ From there you will need to extract the questions data from Udemy which you can 
 <h3>Image Three</h3>
 <img src="https://i.imgur.com/bCXPcgo.png" align="center" />
 
+
+<h2>Deployment</h2>
+
+You have a number of options to deploy the site! Due to it being a fully frontend application I suggest building it and throwing it into a S3 website bucket.
+
+You can build the site with the following command:
+
+`npm run build`
+
+and the output will be in the `build` folder.
+
+My current setup is `push to code deploy` -> `Build site` -> `Sync to s3 website bucket`
+
+
 <hr />
 
 <h3>The following is information from the original boilerplate to assist further development.</h3>
