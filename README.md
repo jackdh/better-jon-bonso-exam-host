@@ -1,5 +1,7 @@
 <h1>Aws exam Site</h1>
 
+<a href="https://exam.jackdh.com" target="_blank">https://exam.jackdh.com</a>
+
 Hey this is just a quick site which aims to provide the following:
 
 <ul>
@@ -28,6 +30,13 @@ From there you will need to extract the questions data from Udemy which you can 
     <li>Reload the page!</li>
 </ul>
 
+<h3>Using exam.jackdh.com</h3>
+
+You're welcome to use exam.jackdh.com if you do not wish to host it yourself. The site is an exact clone of this repository so as you can see no backend activity is taking place so your questions are safe.
+
+
+
+
 <h3>Image One</h3>
 <img src="https://i.imgur.com/2ea0t5h.png" align="center" />
 
@@ -50,14 +59,24 @@ and the output will be in the `build` folder.
 
 My current setup is `push to code deploy` -> `Build site` -> `Sync to s3 website bucket`
 
+<h3>FAQ</h3>
 
+<ul>Can I use this with other exams such as Whizzlabs?</ul>
+Sure! You'll just need to extract and parse the Whizzlabs HTML instead as they don't provide a nice API to consume. This is quite easy however as I've done it myself in the past.
+
+<ul>Can you provide me with the data to use?</ul>
+No. To protect Jon Bonso's work please purchase the exam's yourself and then import them into the tool. They're really worth it!
+<ul>Where can I ask questions?</ul>
+In the issues tab / reddit if you'd like.
+
+
+<br /><br /><br /><br />
 <hr />
 
 <h3>The following is information from the original boilerplate to assist further development.</h3>
 
 <div align="center">
-  
-</a>
+ 
 
 </div>
 <div align="center">
