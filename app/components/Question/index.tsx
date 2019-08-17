@@ -194,7 +194,7 @@ export class Question extends React.PureComponent<Props, State> {
 
     return (
       <div>
-        <h3>Question Num: {question_number}</h3>
+        <h3>Question Number: {question_number}</h3>
 
         <Wrap>
           <Left onClick={() => this.markAsDone(question_number)} />
