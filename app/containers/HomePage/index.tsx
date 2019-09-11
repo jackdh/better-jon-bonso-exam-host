@@ -96,7 +96,7 @@ export default class HomePage extends React.PureComponent<{}, State, any> {
             <Button type="link" onClick={() => this.setState({showOptions: !this.state.showOptions})}>Options</Button>
           </span>
         </HeaderStyle>
-        {showDemo && <Alert showIcon type="warning" message="Only Two Example Questions" description={<span>You can get more excellent question from <a href="https://tutorialsdojo.com" target="_blank">tutorialsdojo</a>. This message will disappear when you insert the full exam.</span>} />}
+        {showDemo && <Alert showIcon type="warning" message="Only Two Example Questions" description={<span>You can get more excellent questions from <a href="https://tutorialsdojo.com" target="_blank">tutorialsdojo</a>. This message will disappear when you insert the full exam.</span>} />}
         <Content>
           {finished && <Card>
             You're done!
